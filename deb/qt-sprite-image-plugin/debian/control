@@ -1,0 +1,20 @@
+Source: qt-sprite-image-plugin
+Priority: optional
+Maintainer: Roman Chistokhodov <freeslave93@gmail.com>
+Build-Depends: debhelper (>= 9), qtbase5-dev (>= 5.0.0), cmake (>= 2.8.12), extra-cmake-modules (>= 5.9.0)
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://bitbucket.org/FreeSlave/qt-sprite-image-plugin
+
+Package: qt5-sprite-image-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt5 image format plugin
+ for Half-Life and Quake sprites
+Recommends: qt5-sprite-image-plugin-extra(>= 1.0)
+
+Package: qt5-sprite-image-plugin-extra
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, qhl-mimetypes(>= 1.0)
+Description: KDE service files
+ for qt5-sprite-image-plugin

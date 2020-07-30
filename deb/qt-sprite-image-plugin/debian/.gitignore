@@ -1,0 +1,7 @@
+files
+*.substvars
+*.log
+qt-sprite-image-plugin
+tmp
+qt5-sprite-image-plugin
+qt5-sprite-image-plugin-extra
